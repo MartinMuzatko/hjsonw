@@ -1,0 +1,30 @@
+{
+  "name": "hjsonw",
+  "version": "1.0.0",
+  "description": "A jq-like CLI tool to set single properties on an hjson file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hjsonw": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinMuzatko/hjsonw.git"
+  },
+  "keywords": [
+    "hjson",
+    "cli"
+  ],
+  "author": "Martin Muzatko <martin@happy-css.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinMuzatko/hjsonw/issues"
+  },
+  "homepage": "https://github.com/MartinMuzatko/hjsonw#readme",
+  "dependencies": {
+    "hjson-config": "^1.1.0",
+    "meow": "^5.0.0"
+  }
+}
