@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/MartinMuzatko/hjsonw#readme",
   "dependencies": {
-    "hjson-config": "^1.1.0",
+    "hjson-config": "^1.1.2",
     "meow": "^5.0.0"
   }
 }
