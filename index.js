@@ -30,6 +30,7 @@ if (!cli.input.length || !cli.flags.read || !cli.flags.write) {
     cli.showHelp();
 }
 
+// use hjson-config
 const config = new Config(cli.flags.write);
 (async ()=>{
     if (cli.flags.read.indexOf('.') == 0) {
