@@ -1,6 +1,6 @@
 {
   "name": "hjsonw",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A jq-like CLI tool to set single properties on an hjson file",
   "main": "index.js",
   "scripts": {
